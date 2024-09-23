@@ -2,13 +2,15 @@
   "name": "01-graphql-queries",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "01-graphql-queries"
+    "url": "https://github.com/lbertoncello/01-graphql-queries.git"
   },
   "author": "lbertoncello",
   "license": "ISC",
@@ -25,6 +27,7 @@
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "nodemon": "^3.1.7",
     "prettier": "^3.3.3"
   }
 }
