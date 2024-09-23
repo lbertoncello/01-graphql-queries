@@ -18,6 +18,10 @@
     "apollo-server": "^3.13.0",
     "graphql": "^16.9.0"
   },
+  "graphql": {
+    "schema": "https://localhost:4000/",
+    "documents": "**/*.{graphql,js,ts,jsx,tsx}"
+  },
   "devDependencies": {
     "eslint": "^8.2.0",
     "eslint-config-airbnb": "^19.0.4",
